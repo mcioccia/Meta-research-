@@ -1,0 +1,31 @@
+AI-use disclosure: Prepared with OpenAI Codex assistance for research, coding,
+and calculation checks. AI-generated content may contain errors. The student
+is responsible for reviewing sources, calculations, and final judgments before
+submission. Educational coursework; not personalized investment advice.
+
+META Lab 08: 2026-01-29 close; latest public annual GAAP diluted EPS
+Price sources: opened secondary vendors; exchange confirmation unresolved.
+META FY2025 versus peers FY2024; material tax and business qualifications.
+Business decisions (set before reviewing valuation results):
+  GOOGL: qualify -- Advertising platform fit; qualify search, Cloud and other business mix and older earnings period. Class A EPS, not consolidated EPS.
+  PINS: qualify -- Advertising platform fit; qualify smaller shopping-focused business, older period and major one-time tax benefit in reported EPS.
+
+Target observed P/E (excluded from peer set):
+  META: 31.430822x
+
+Peer calculations:
+  GOOGL P/E: 42.018634x; implied price: $987.02
+  PINS P/E: 8.370787x; implied price: $196.63
+
+Full-peer estimate:
+  Valid peers: 2; median P/E: 25.194710x
+  Minimum-implied price: $196.63
+  Median-implied price: $591.82
+  Maximum-implied price: $987.02
+  Peer-implied range: $196.63 to $987.02
+
+Leave-one-out sensitivity (change from unrounded full-peer estimate):
+  Remove GOOGL: $196.63 (reference estimate; no range); change -$395.19
+  Remove PINS: $987.02 (reference estimate; no range); change +$395.19
+
+P/E directly implies an equity price per share; no cash/debt bridge is applied.
