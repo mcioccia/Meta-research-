@@ -1,0 +1,34 @@
+AI-use disclosure: Prepared or edited with OpenAI Codex assistance. Verify sources, calculations and conclusions.
+Educational purposes only. Not financial or investment advice; not a recommendation to buy, sell or hold any security.
+
+test_meta_asset_life_changes_both_profit_and_cash (standalone.ModelTests.test_meta_asset_life_changes_both_profit_and_cash) ... ok
+test_meta_capex_changes_assets_depreciation_and_funding (standalone.ModelTests.test_meta_capex_changes_assets_depreciation_and_funding) ... ok
+test_meta_indefinite_intangibles_not_amortized (standalone.ModelTests.test_meta_indefinite_intangibles_not_amortized) ... ok
+test_meta_negative_fcff_stays_in_pv (standalone.ModelTests.test_meta_negative_fcff_stays_in_pv) ... ok
+test_meta_no_phantom_credit (standalone.ModelTests.test_meta_no_phantom_credit) ... ok
+test_meta_opening_from_filing (standalone.ModelTests.test_meta_opening_from_filing) ... ok
+test_meta_sbc_economic_cost (standalone.ModelTests.test_meta_sbc_economic_cost) ... ok
+test_meta_statements_and_guidance_anchor (standalone.ModelTests.test_meta_statements_and_guidance_anchor) ... ok
+test_meta_terminal_requires_reinvestment (standalone.ModelTests.test_meta_terminal_requires_reinvestment) ... ok
+test_balanced_but_false_cash_flow_rejected (__main__.StandaloneChecks.test_balanced_but_false_cash_flow_rejected) ... ok
+test_cash_error_prevents_valuation (__main__.StandaloneChecks.test_cash_error_prevents_valuation) ... ok
+test_cash_plug_cannot_hide_equity_error (__main__.StandaloneChecks.test_cash_plug_cannot_hide_equity_error) ... ok
+test_fcfe_numbers_cannot_be_changed_independently (__main__.StandaloneChecks.test_fcfe_numbers_cannot_be_changed_independently) ... ok
+test_opening_error_names_year_and_gap (__main__.StandaloneChecks.test_opening_error_names_year_and_gap) ... ok
+test_same_forecast_as_reviewed_model (__main__.StandaloneChecks.test_same_forecast_as_reviewed_model) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.028s
+
+OK
+
+Command: python meta_proforma.py --break-cash
+Exit code: 1
+FY2026E balance_gap: gap +1000.0 million (exact +1000.00000000); valuation refused
+
+
+Command: python meta_proforma.py --scenario high-capex
+Exit code: 1
+FY2027E cash_floor_headroom: gap -8179.6 million (exact -8179.59694551); valuation refused
+
+Standalone execution verified from an empty working directory; no companion data or local modules required.

@@ -1,0 +1,114 @@
+AI-use disclosure: Prepared or edited with OpenAI Codex assistance. Verify sources, calculations and conclusions.
+Educational purposes only. Not financial or investment advice; not a recommendation to buy, sell or hold any security.
+
+META | base | 2026-2030 | information cutoff 2026-01-29
+Company-specific line: AI infrastructure capex. No floor-plan loan is modeled.
+Operating costs include R&D, SBC and rent; separate D&A is deducted only once.
+Revenue segment and PP&E detail rows are sublines, not additional assets or revenue.
+Opening assets 366,021.0 = liabilities 148,778.0 + equity 217,243.0
+
+INCOME STATEMENT (USD millions)
+Line                                         2026E         2027E         2028E         2029E         2030E
+Advertising                              228,740.1     259,391.2     288,650.5     316,678.5     342,487.8
+Other Foa                                  3,230.0       3,876.0       4,573.7       5,259.7       5,890.9
+Rl Revenue                                 2,427.7       2,670.5       2,884.1       3,114.8       3,270.6
+Revenue                                  234,397.8     265,937.7     296,108.3     325,053.1     351,649.3
+Operating Costs Ex Da                    138,598.9     154,243.9     165,820.7     175,528.7     182,857.6
+Sbc                                       23,825.1      27,031.0      30,097.7      33,039.7      35,743.1
+Depreciation                              25,642.1      41,422.3      57,561.9      73,115.4      88,070.3
+Amortization                               1,259.0       1,162.0         771.0          39.0          27.0
+Operating Income                          68,897.8      69,109.6      71,954.7      76,370.0      80,694.3
+Interest                                   2,692.0       2,679.4       2,676.9       2,674.5       2,672.2
+Pretax Income                             66,205.7      66,430.2      69,277.8      73,695.5      78,022.1
+Tax                                       11,917.0      11,957.4      12,470.0      13,265.2      14,044.0
+Net Income                                54,288.7      54,472.7      56,807.8      60,430.3      63,978.1
+
+BALANCE SHEET (USD millions)
+Line                                         2026E         2027E         2028E         2029E         2030E
+Cash                                      10,000.0      10,000.0      17,972.5      57,283.5     117,687.8
+Securities                                29,541.0      16,421.8      16,421.8      16,421.8      16,421.8
+Receivables                               23,057.7      26,160.3      29,128.1      31,975.4      34,591.7
+Other Current                              7,609.3       8,633.2       9,612.6      10,552.3      11,415.7
+Restricted Current                           837.0         837.0         837.0         837.0         837.0
+Ppe                                      275,449.9     349,027.6     396,465.7     418,350.2     425,279.9
+Nonmarket Investments                     27,524.0      27,524.0      27,524.0      27,524.0      27,524.0
+Operating Rou                             20,404.0      20,404.0      20,404.0      20,404.0      20,404.0
+Goodwill                                  24,534.0      24,534.0      24,534.0      24,534.0      24,534.0
+Intangibles                                2,433.0       1,271.0         500.0         461.0         434.0
+Other Noncurrent                           4,745.0       4,745.0       4,745.0       4,745.0       4,745.0
+Payables Accruals                         40,721.0      46,200.3      51,441.7      56,470.1      61,090.6
+Capex Payable                              4,402.0       4,402.0       4,402.0       4,402.0       4,402.0
+Operating Lease                           25,153.0      25,153.0      25,153.0      25,153.0      25,153.0
+Finance Lease                                876.0         816.0         756.0         701.0         646.0
+Debt                                      58,744.0      58,744.0      58,744.0      58,744.0      58,744.0
+Tax Liability                             21,005.0      21,005.0      21,005.0      21,005.0      21,005.0
+Other Liabilities                          3,377.0       3,377.0       3,377.0       3,377.0       3,377.0
+Revolver                                       0.0           0.0           0.0           0.0           0.0
+Equity                                   271,856.8     329,860.6     383,266.0     443,236.0     509,457.2
+Total assets                             426,134.8     489,557.8     548,144.7     613,088.2     683,874.8
+Total liabilities                        154,278.0     159,697.3     164,878.7     169,852.1     174,417.6
+Liabilities plus equity                  426,134.8     489,557.8     548,144.7     613,088.2     683,874.8
+
+PP&E DETAIL (included above) (USD millions)
+Line                                         2026E         2027E         2028E         2029E         2030E
+Land                                       3,687.0       3,687.0       3,687.0       3,687.0       3,687.0
+Cip                                       75,137.3      83,568.6      83,784.3      79,892.2      77,946.1
+Active Ppe                               196,625.6     261,771.9     308,994.3     334,771.1     343,646.8
+
+CASH FLOW STATEMENT (USD millions)
+Line                                         2026E         2027E         2028E         2029E         2030E
+Net Income                                54,288.7      54,472.7      56,807.8      60,430.3      63,978.1
+Depreciation                              25,642.1      41,422.3      57,561.9      73,115.4      88,070.3
+Amortization                               1,259.0       1,162.0         771.0          39.0          27.0
+Sbc                                       23,825.1      27,031.0      30,097.7      33,039.7      35,743.1
+Change Nwc                                -1,434.0      -1,352.8      -1,294.1      -1,241.5      -1,140.8
+Cfo                                      106,449.0     125,440.8     146,532.5     167,866.0     188,959.3
+Capex                                    124,692.0     115,000.0     105,000.0      95,000.0      95,000.0
+Commissioned Assets                      100,075.7     106,568.6     104,784.3      98,892.2      96,946.1
+Securities Sales                          16,178.0      13,119.2           0.0           0.0           0.0
+Cfi                                     -108,514.0    -101,880.8    -105,000.0     -95,000.0     -95,000.0
+Debt Repayment                                 0.0           0.0           0.0           0.0           0.0
+Lease Principal                              308.0          60.0          60.0          55.0          55.0
+Buyback                                        0.0           0.0      10,000.0      10,000.0      10,000.0
+Dividends                                  5,500.0       5,500.0       5,500.0       5,500.0       5,500.0
+Share Withholding                         18,000.0      18,000.0      18,000.0      18,000.0      18,000.0
+Net Revolver Draw                              0.0           0.0           0.0           0.0           0.0
+Cff                                      -23,808.0     -23,560.0     -33,560.0     -33,555.0     -33,555.0
+Net Change                               -25,873.0           0.0       7,972.5      39,311.0      60,404.3
+Opening Cash                              35,873.0      10,000.0      10,000.0      17,972.5      57,283.5
+Closing Cash                              10,000.0      10,000.0      17,972.5      57,283.5     117,687.8
+Economic Fcff                            -39,860.7     -14,393.1      13,629.9      42,019.3      60,407.5
+Cash Fcfe                                -18,551.0      10,380.8      41,472.5      72,811.0      93,904.3
+Economic Fcfe                            -42,376.2     -16,650.2      11,374.8      39,771.3      58,161.2
+
+CHECK BLOCK (USD millions; accounting gaps must be zero)
+Year        Balance gap    Max link gap            Cash      Cash floor   Result
+2026                0.0      0.00000000        10,000.0        10,000.0     PASS
+2027                0.0      0.00000000        10,000.0        10,000.0     PASS
+2028                0.0      0.00000000        17,972.5        10,000.0     PASS
+2029                0.0      0.00000000        57,283.5        10,000.0     PASS
+2030                0.0      0.00000000       117,687.8        10,000.0     PASS
+
+FCFE STATUS (before shareholder distributions; USD millions)
+2026: cash FCFE -18,551.0 (negative FCFE); SBC-adjusted FCFE -42,376.2 (negative FCFE)
+2027: cash FCFE 10,380.8 (positive FCFE); SBC-adjusted FCFE -16,650.2 (negative FCFE)
+2028: cash FCFE 41,472.5 (positive FCFE); SBC-adjusted FCFE 11,374.8 (positive FCFE)
+2029: cash FCFE 72,811.0 (positive FCFE); SBC-adjusted FCFE 39,771.3 (positive FCFE)
+2030: cash FCFE 93,904.3 (positive FCFE); SBC-adjusted FCFE 58,161.2 (positive FCFE)
+Cash FCFE: positive-only five-year PV at 9.53% = 150,373.66; signed PV = 133,436.71
+SBC-adjusted FCFE: positive-only five-year PV at 9.53% = 73,185.21; signed PV = 20,617.29
+Positive-only subtotals are classroom displays, not complete equity values.
+Negative cash flows remain in the statements, funding needs and complete DCF.
+
+COMPLETE VALUATION: economic FCFF at 9.4% WACC in the base case
+Negative explicit FCFF is retained. SBC economic cost is retained with fixed share count.
+Five-year FCFF present value: $29,830.87 million
+Terminal present value: $522,713.54 million
+Enterprise value: $552,544.41 million
+Net opening asset/debt adjustments: $4,421.00 million
+Equity value: $556,965.41 million
+Share of enterprise value after 2030: 94.60%
+Value per share: $216.38
+Terminal FCFF: 56,519.6; terminal reinvestment: 11,303.9
+A negative terminal cash flow requires a path to sustainable positive cash flow; do not force a positive terminal value.
+Base assumptions include a capex slowdown and simplified lease/asset schedules; balancing does not establish realism.

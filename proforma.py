@@ -1,3 +1,6 @@
+# AI-use disclosure: This file has been prepared or edited with assistance from OpenAI Codex. AI-generated content may contain errors. The author is responsible for verifying sources, calculations, and conclusions.
+# Educational purposes only. Not financial or investment advice, and not a recommendation to buy, sell, or hold any security.
+
 """Lab 09: ABG five-year three-statement engine. Python standard library only.
 
 Run: python proforma.py
@@ -5,6 +8,12 @@ Run: python proforma.py
 Source: CinderZhang/FIN43900-Fall2026, lessons/week-05/lab-09-proforma-build.md
 All amounts USD millions; shares millions. Educational model.
 """
+
+if __name__ == "__main__":
+    print('AI-use disclosure: This file has been prepared or edited with assistance from OpenAI Codex. AI-generated content may contain errors. The author is responsible for verifying sources, calculations, and conclusions.')
+    print('Educational purposes only. Not financial or investment advice, and not a recommendation to buy, sell, or hold any security.')
+    print()
+
 from copy import deepcopy
 import argparse
 import math
