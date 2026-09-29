@@ -1,0 +1,368 @@
+{
+  "ai_use_disclosure": "Prepared or edited with assistance from OpenAI Codex. AI-generated content may contain errors. The author is responsible for verifying sources, calculations, and conclusions.",
+  "educational_disclaimer": "Educational purposes only. Not financial or investment advice, and not a recommendation to buy, sell, or hold any security.",
+  "run_date": "2026-09-29",
+  "captured_at_utc": "2026-09-29T17:48:41.583884+00:00",
+  "command": "python meta_proforma.py",
+  "scenario": "base (default; no overrides)",
+  "working_directory": "C:\\Users\\mac10\\finance-ai-work",
+  "python_executable": "C:\\Users\\mac10\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_path_note": "The interpreter directory was added to PATH only for the child process; persistent settings were not changed.",
+  "source_sha256": "4211cb8cd038248e44a5b9d107370d081b8eac1ba4ca8aa77539b00743ab64cd",
+  "base_inputs_match_previous": true,
+  "source_matches_previous": true,
+  "visible_output_matches_previous_after_line_ending_normalization": true,
+  "inputs": {
+    "company": "Meta Platforms (META)",
+    "valuation_date": "2026-01-29",
+    "units": "USD millions; shares in millions",
+    "sources": {
+      "M25": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "M24": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+      "M23": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000012/meta-20231231.htm",
+      "E25": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/"
+    },
+    "opening": {
+      "revenue": 200966,
+      "advertising": 196175,
+      "other_foa": 2584,
+      "rl_revenue": 2207,
+      "cash": 35873,
+      "securities": 45719,
+      "receivables": 19769,
+      "other_current": 6524,
+      "restricted_current": 837,
+      "ppe": 176400,
+      "land": 3687,
+      "cip": 50521,
+      "active_ppe": 122192,
+      "nonmarket_investments": 27524,
+      "operating_rou": 20404,
+      "goodwill": 24534,
+      "intangibles": 3692,
+      "other_noncurrent": 4745,
+      "payables_accruals": 34913,
+      "operating_lease": 25153,
+      "finance_lease": 1184,
+      "debt": 58744,
+      "tax_liability": 21005,
+      "other_liabilities": 3377,
+      "revolver": 0,
+      "equity": 217243,
+      "capex_payable": 4402
+    },
+    "opening_source": "M25 consolidated balance sheet p.88; Notes 6-9 pp.107-110. Other current = 7361-837 restricted cash. Operating payables/accruals = 8894+30729-308 current finance lease-4402 accrued PP&E = 34913. Accrued PP&E 4402 is held flat, so forecast asset additions equal cash property purchases. Other liabilities = 4253-876 noncurrent finance lease. Other noncurrent = 8437-3692 intangibles. Intangibles comprise 3295 finite-lived and 397 indefinite-lived assets. PP&E detail sums land 3687 + CIP 50521 + active assets 122192 = 176400. No opening plug.",
+    "assumptions": {
+      "impression_growth": {
+        "value": [
+          0.1,
+          0.08,
+          0.07,
+          0.06,
+          0.05
+        ],
+        "label": "judgment",
+        "reason": "Fade below FY2025's 12% impression growth as the advertising base matures; no unproven standalone AI revenue is added.",
+        "source": "M25 Item 7, advertising discussion p.73"
+      },
+      "ad_price_growth": {
+        "value": [
+          0.06,
+          0.05,
+          0.04,
+          0.035,
+          0.03
+        ],
+        "label": "judgment",
+        "reason": "Fade from FY2025's 9% price growth to allow for weaker incremental targeting gains and mix effects. Advertising growth compounds price and volume, rather than adding them.",
+        "source": "M25 Item 7 p.73"
+      },
+      "other_foa_growth": {
+        "value": [
+          0.25,
+          0.2,
+          0.18,
+          0.15,
+          0.12
+        ],
+        "label": "judgment",
+        "reason": "Below the reported 50% FY2025 increase in other FoA revenue; smaller messaging/subscription businesses mature.",
+        "source": "M25 Note 2 revenue; Item 7 p.73"
+      },
+      "rl_growth": {
+        "value": [
+          0.1,
+          0.1,
+          0.08,
+          0.08,
+          0.05
+        ],
+        "label": "judgment",
+        "reason": "Modest hardware recovery scenario above FY2025's 3%; no assumption that Reality Labs becomes a large profit source.",
+        "source": "M25 Note 2 and segment Note 16"
+      },
+      "opex_ex_da_ratio": {
+        "value": [
+          0.5912977220829279,
+          0.58,
+          0.56,
+          0.54,
+          0.52
+        ],
+        "label": "judgment",
+        "reason": "2026 non-D&A costs are calibrated once so base total operating expense equals 165500, midpoint of the January 28 range 162000-169000. Later ratios fade from about 59.13% to 52%, still above FY2025 49.30%. Includes R&D, Reality Labs, SBC and operating rent. Ratios stay fixed in depreciation shocks so higher D&A reduces income. Our slower revenue scenario puts 2026 operating income below management's expectation of growth; this is a conservative analyst case, not a replication of the full outlook.",
+        "source": "E25 CFO Outlook; M25 income/cash-flow statements; analyst cost-revenue path"
+      },
+      "cash_capex": {
+        "value": [
+          124692,
+          115000,
+          105000,
+          95000,
+          95000
+        ],
+        "label": "judgment",
+        "reason": "2026 property purchases plus 308 of finance-lease principal total 125000, the midpoint of the filed 115000-135000 capital expenditure range. The split and later spending decline are judgments, not guidance. A sustained-high-spend case is tested separately.",
+        "source": "M25 Item 7 p.77; Note 7 p.108"
+      },
+      "capex_guidance_2026": {
+        "value": [
+          115000,
+          135000
+        ],
+        "label": "guidance",
+        "reason": "Filed management range available at the January 29 cutoff; later 2026 updates are excluded from this historical scenario.",
+        "source": "M25 Item 7 p.77"
+      },
+      "opening_active_depreciation": {
+        "value": 18000,
+        "label": "judgment",
+        "reason": "Use the historical FY2025 PP&E depreciation of 18000 as a constant annual charge on the opening active pool, capped at remaining carrying value. The input is observed history but carrying it forward is judgment because asset ages are not disclosed.",
+        "source": "M25 Note 6 p.107"
+      },
+      "cip_commission_fraction": {
+        "value": 0.5,
+        "label": "judgment",
+        "reason": "Commission half of opening construction-in-progress each year; the filing does not give a project commissioning schedule. CIP is not depreciated until commissioned.",
+        "source": "M25 Note 1 PP&E accounting and Note 6; opening CIP 50521"
+      },
+      "capex_in_service_fraction": {
+        "value": 0.6,
+        "label": "judgment",
+        "reason": "60% of current-year cash purchases enter service at midyear; the remainder stays in CIP. The same transfer changes CIP, active PP&E and depreciation.",
+        "source": "M25 Note 1: land and CIP are not depreciated"
+      },
+      "new_server_share": {
+        "value": 0.8,
+        "label": "judgment",
+        "reason": "80% of commissioned additions are treated as servers/network assets; 20% as buildings. This simplified mix is not a disclosed spending allocation.",
+        "source": "M25 Notes 1 and 6, infrastructure asset categories"
+      },
+      "server_life": {
+        "value": 5.5,
+        "label": "judgment",
+        "reason": "Most servers/network assets use 5.5 years after the January 2025 estimate change. Applying 5.5 years to all new server cohorts is the model convention; test a shorter life.",
+        "source": "M25 Notes 1 and 6"
+      },
+      "building_life": {
+        "value": 27.5,
+        "label": "judgment",
+        "reason": "Midpoint of the filed 25-30 year building lives, applied to the non-server share of commissioned assets.",
+        "source": "M25 Note 1 PP&E useful-life table"
+      },
+      "amortization": {
+        "value": [
+          1259,
+          1162,
+          771,
+          39,
+          27
+        ],
+        "label": "guidance",
+        "reason": "Use the filed expected amortization schedule for existing finite-lived intangibles. No new acquisitions or purchased intangibles are assumed; the 397 indefinite-lived balance is not amortized. This is an accounting estimate schedule, not earnings guidance. In the permitted three-label taxonomy, a forward disclosed accounting estimate is classified as guidance.",
+        "source": "M25 Note 8, expected amortization table p.110"
+      },
+      "receivables_ratio": {
+        "value": 0.09836987351094215,
+        "label": "judgment",
+        "reason": "The opening number is history; using it unchanged in the forecast is judgment. 19769 / 200966; maintain FY2025 receivables intensity.",
+        "source": "M25 balance sheet p.88 and income statement p.89"
+      },
+      "other_current_ratio": {
+        "value": 0.03246320273081019,
+        "label": "judgment",
+        "reason": "The opening number is history; using it unchanged in the forecast is judgment. (7361-837 restricted cash) / 200966; restricted cash stays fixed and is not available for funding.",
+        "source": "M25 balance sheet and restricted-cash reconciliation"
+      },
+      "payables_accruals_ratio": {
+        "value": 0.1737259038842391,
+        "label": "judgment",
+        "reason": "The opening number is history; using it unchanged in the forecast is judgment. (8894+30729-308 finance lease-4402 accrued PP&E) / 200966. Exclude both finance debt and capital accruals from the operating funding ratio. Other accruals remain aggregated; this is a simplifying historical-intensity assumption.",
+        "source": "M25 balance sheet and Notes 7, 9"
+      },
+      "tax_rate": {
+        "value": 0.18,
+        "label": "judgment",
+        "reason": "Normalize below the 29.6% FY2025 rate distorted by the large tax charge; near FY2023's 17.6%, above FY2024's 11.8%. Cash tax equals tax expense; existing long-term tax liabilities are held separately and deducted in the value bridge.",
+        "source": "M25 Note 14 income taxes"
+      },
+      "debt_rate": {
+        "value": 0.045,
+        "label": "judgment",
+        "reason": "Simplified 4.5% expense rate on opening bond carrying value, not a measured market borrowing yield. Keeps financing explicit; no forecast investment income or capitalized interest.",
+        "source": "M25 Note 10 debt; simplification requiring student defense"
+      },
+      "finance_lease_rate": {
+        "value": 0.041,
+        "label": "judgment",
+        "reason": "FY2025 weighted-average finance lease discount rate used as an interest proxy.",
+        "source": "M25 Note 7 p.108"
+      },
+      "lease_principal": {
+        "value": [
+          308,
+          60,
+          60,
+          55,
+          55
+        ],
+        "label": "judgment",
+        "reason": "2026 uses the filed current finance-lease liability. Later principal amounts approximate the disclosed declining maturity schedule; not a contractual amortization schedule. No new finance leases: future modeled investment is cash-funded.",
+        "source": "M25 Note 7 p.108"
+      },
+      "debt_repayment": {
+        "value": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "label": "judgment",
+        "reason": "Refinance bonds at carrying value on maturity, leaving net bond debt flat. Financing access and rates are assumptions, not guaranteed outcomes.",
+        "source": "M25 Note 10"
+      },
+      "sbc_ratio": {
+        "value": 0.10164405919409253,
+        "label": "judgment",
+        "reason": "The opening number is history; using it unchanged in the forecast is judgment. 20427 / 200966. SBC remains an income-statement cost, is added back in cash from operations and credited to equity. Valuation deducts the grant expense from cash flow to recognize its economic cost with a fixed diluted share count.",
+        "source": "M25 cash flow pp.92-93; Note 13"
+      },
+      "share_withholding": {
+        "value": [
+          18000,
+          18000,
+          18000,
+          18000,
+          18000
+        ],
+        "label": "judgment",
+        "reason": "Near FY2025 net-share-settlement tax cash payments of 18400; financing distribution reduces cash and equity. Not deducted again in economic FCFF because the full SBC cost is already recognized there.",
+        "source": "M25 cash flow pp.92-93"
+      },
+      "buyback": {
+        "value": [
+          0,
+          0,
+          10000,
+          10000,
+          10000
+        ],
+        "label": "judgment",
+        "reason": "Suspend discretionary repurchases in 2026-27 during the infrastructure build, then restart at 10000 annually. This is an analyst financing policy, not announced management policy. Cash and equity both reflect it; no mechanical reduction to the fixed valuation share denominator.",
+        "source": "M25 cash flow pp.92-93"
+      },
+      "dividends": {
+        "value": [
+          5500,
+          5500,
+          5500,
+          5500,
+          5500
+        ],
+        "label": "judgment",
+        "reason": "Near FY2025 dividends of 5324, kept flat for a transparent funding scenario.",
+        "source": "M25 cash flow pp.92-93"
+      },
+      "minimum_cash": {
+        "value": 10000,
+        "label": "judgment",
+        "reason": "Operating liquidity reserve; sell marketable securities before any modeled facility draw. Restricted cash cannot fund the reserve. Reserve is excluded from surplus cash in valuation.",
+        "source": "M25 balance sheet and cash reconciliation; analyst policy"
+      },
+      "revolver_limit": {
+        "value": 0,
+        "label": "judgment",
+        "reason": "No unverified financing facility is invented. If liquidity falls below the floor after securities are sold, the engine refuses valuation; change the distributions or explicitly document a funding plan.",
+        "source": "Analyst policy"
+      },
+      "revolver_rate": {
+        "value": 0.06,
+        "label": "judgment",
+        "reason": "Inactive at the zero facility limit. Scenario borrowing must carry an explicit interest assumption.",
+        "source": "Analyst policy"
+      },
+      "discount_rate": {
+        "value": 0.094,
+        "label": "judgment",
+        "reason": "Retain the Lab 05 9.4% WACC to isolate the cash-flow model change. Its assumed beta and capital weights have not been independently re-estimated here.",
+        "source": "Existing meta_dcf.md, WACC derivation"
+      },
+      "terminal_growth": {
+        "value": 0.025,
+        "label": "judgment",
+        "reason": "Retain the prior nominal perpetual growth assumption, strictly below WACC; terminal reinvestment is required to support it.",
+        "source": "Existing meta_dcf.md"
+      },
+      "terminal_roic": {
+        "value": 0.15,
+        "label": "judgment",
+        "reason": "15% return on incremental terminal invested capital. Stable reinvestment = terminal NOPAT × growth / ROIC; do not assume zero investment while growing forever. This is not a measured Meta return.",
+        "source": "Analyst terminal-state assumption; subject to sensitivity"
+      },
+      "shares": {
+        "value": 2574,
+        "label": "judgment",
+        "reason": "The opening number is history; using it unchanged in the forecast is judgment. FY2025 weighted-average diluted shares retained for comparability with Lab 05. It is a proxy, not the point-in-time diluted count; economic SBC cost is retained to avoid treating future grants as free.",
+        "source": "M25 EPS Note 3"
+      },
+      "nonmarket_value_fraction": {
+        "value": 0.5,
+        "label": "judgment",
+        "reason": "Value non-marketable investments at half their 27524 carrying amount to reflect uncertain realization; no investment income enters the operating forecast. A valuation policy, not a market quote.",
+        "source": "M25 Note 5 and balance sheet"
+      },
+      "fixed_balances_policy": {
+        "value": "Hold land, restricted cash, goodwill, operating lease assets/liabilities, nonmarket investments, existing tax liability and remaining other noncurrent balances flat; no M&A, FX, remeasurement gains, asset disposals or new financing leases. Hold accrued PP&E 4402 flat, so cash property purchases equal asset additions.",
+        "label": "judgment",
+        "reason": "Condensed coursework scope. Operating rent remains within expenses and cash costs; equal replacement lease activity is implicit in flat lease balances. The undisclosed timing/mix of 103770 in uncommenced lease commitments is not individually modeled, making this a material limitation.",
+        "source": "M25 Notes 1, 7 and 8"
+      },
+      "expenses_guidance_2026": {
+        "value": [
+          162000,
+          169000
+        ],
+        "label": "guidance",
+        "reason": "Total expense guidance available at January 29; choosing the midpoint and later expense ratios are judgments.",
+        "source": "E25 CFO Outlook Commentary"
+      },
+      "tax_guidance_2026": {
+        "value": [
+          0.13,
+          0.16
+        ],
+        "label": "guidance",
+        "reason": "Management expected a 13-16% effective tax rate absent tax-landscape changes. The model deliberately uses the more conservative 18% normalized rate rather than labeling it guidance.",
+        "source": "E25 CFO Outlook Commentary"
+      },
+      "classroom_cost_of_equity": {
+        "value": 0.0953,
+        "label": "judgment",
+        "reason": "Retain the Lab 05 cost of equity for the separate FCFE classroom subtotal; not newly estimated. The main FCFF valuation uses WACC.",
+        "source": "Existing meta_dcf.md: 4.24% + assumed beta 1.25 x ERP 4.23%, rounded."
+      }
+    },
+    "company_specific_policy": "No modeled floor-plan loan. AI infrastructure capex is the company-specific line: cash purchases increase PP&E; construction in progress enters service explicitly; depreciation then reduces earnings. No separate forecast impairment is assumed. Inventory is not separately disclosed, not proven to be zero."
+  }
+}
