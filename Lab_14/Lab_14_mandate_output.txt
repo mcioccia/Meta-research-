@@ -1,0 +1,52 @@
+Reserve minimum: 3.0% of the portfolio
+AI-use disclosure: Prepared with OpenAI Codex assistance; verify results.
+Educational purposes only. Not financial or investment advice, and not a recommendation to buy, sell or hold any security.
+
+Candidate A
+  Weights sum to 100: 100.0 pass
+  Long-only (lowest weight): 0.0 pass
+  Reserve >= 3.0%: 14.0 pass
+  Redeemable in 5 days >= 90.0%: 100.0 pass
+  Largest single company <= 8.0%: 0.0 pass
+  Calendar-year loss: requires CIO clarification
+  Verdict: passes every checkable rule
+
+Candidate B
+  Weights sum to 100: 100.0 pass
+  Long-only (lowest weight): 0.0 pass
+  Reserve >= 3.0%: 1.0 FAIL
+  Redeemable in 5 days >= 90.0%: 85.0 FAIL
+  Largest single company <= 8.0%: 9.0 FAIL
+  Calendar-year loss: requires CIO clarification
+  Verdict: fails 3 rule(s)
+
+Candidate C
+  Weights sum to 100: 100.0 pass
+  Long-only (lowest weight): 0.0 pass
+  Reserve >= 3.0%: 2.0 FAIL
+  Redeemable in 5 days >= 90.0%: 100.0 pass
+  Largest single company <= 8.0%: 8.0 pass
+  Calendar-year loss: requires CIO clarification
+  Verdict: fails 1 rule(s)
+
+Candidate D
+  Weights sum to 100: 100.0 pass
+  Long-only (lowest weight): 0.0 pass
+  Reserve >= 3.0%: 100.0 pass
+  Redeemable in 5 days >= 90.0%: 100.0 pass
+  Largest single company <= 8.0%: 0.0 pass
+  Calendar-year loss: requires CIO clarification
+  Verdict: passes every checkable rule
+
+Candidate E
+  Weights sum to 100: 100.0 pass
+  Long-only (lowest weight): 0.0 pass
+  Reserve >= 3.0%: 0.0 FAIL
+  Redeemable in 5 days >= 90.0%: 100.0 pass
+  Largest single company <= 8.0%: 0.0 pass
+  Calendar-year loss: requires CIO clarification
+  Verdict: fails 1 rule(s)
+
+Scope: these are static checks, not full mandate approval. Turnover and rebalancing need trade/history data; return and loss outcomes are not tested.
+
+SELF-TEST PASS: known answers A-C; D; benchmark E; negative-weight probe; issuer/liquidity boundaries; base inputs unchanged.
