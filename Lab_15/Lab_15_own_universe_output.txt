@@ -1,0 +1,30 @@
+AI-use disclosure: Prepared with OpenAI Codex assistance; verify results.
+Educational purposes only. Not financial or investment advice.
+Student mandate: objective 7.49%; reserve minimum 3.00%; BIL only.
+Inputs are historical estimates, not guaranteed returns.
+
+all_months: 59 monthly returns
+  QQQ: 10.00%
+  ONEQ: 20.00%
+  VUG: 5.00%
+  BIL: 65.00%
+  IEF: 0.00%
+  LQD: 0.00%
+  Return 7.52%; volatility 7.23%; reserve 65.00%
+  20533 feasible / 53130 tested
+  Independent verification: PASS
+
+last_36_months: 36 monthly returns
+  QQQ: 5.00%
+  ONEQ: 0.00%
+  VUG: 10.00%
+  BIL: 85.00%
+  IEF: 0.00%
+  LQD: 0.00%
+  Return 7.52%; volatility 2.57%; reserve 85.00%
+  39774 feasible / 53130 tested
+  Independent verification: PASS
+
+Largest weight change: 20.00 percentage points
+Partner attack: pending; no change invented.
+Student call: Pilot: use it provisionally; adopt only after the target and allocation hold up across other reasonable estimation windows

@@ -1,0 +1,74 @@
+{
+  "ai_disclosure": "AI-use disclosure: Prepared with OpenAI Codex assistance; verify results.",
+  "educational_notice": "Educational purposes only. Not financial or investment advice.",
+  "objective": 0.0749,
+  "reserve_minimum": 0.03,
+  "reserve_eligible": [
+    "BIL"
+  ],
+  "csv_sha256": "a18277c57bb0328a1c7a170243a46756230430fac07944e63167f67b446231da",
+  "runs": {
+    "All months": {
+      "estimates": {
+        "sleeves": [
+          {
+            "name": "QQQ",
+            "return": 0.16039617612553442,
+            "volatility": 0.20839538441920497,
+            "reserve_eligible": false
+          }
+        ],
+        "correlations": [
+          [
+            1.0
+          ]
+        ],
+        "label": "estimate",
+        "price_count": 60,
+        "return_count": 59,
+        "price_start": "2021-10-29",
+        "price_end": "2026-09-30",
+        "return_start": "2021-11-30",
+        "return_end": "2026-09-30"
+      },
+      "mix": null,
+      "diagnostic_100_percent_QQQ": {
+        "return": 0.16039617612553442,
+        "volatility": 0.20839538441920497,
+        "reserve": 0
+      },
+      "checks": "PASS: independent mean/stdev; covariance identity; reserve infeasibility"
+    },
+    "Last 36 months": {
+      "estimates": {
+        "sleeves": [
+          {
+            "name": "QQQ",
+            "return": 0.2639153616048555,
+            "volatility": 0.17256425788470947,
+            "reserve_eligible": false
+          }
+        ],
+        "correlations": [
+          [
+            1.0
+          ]
+        ],
+        "label": "estimate",
+        "price_count": 60,
+        "return_count": 36,
+        "price_start": "2021-10-29",
+        "price_end": "2026-09-30",
+        "return_start": "2023-10-31",
+        "return_end": "2026-09-30"
+      },
+      "mix": null,
+      "diagnostic_100_percent_QQQ": {
+        "return": 0.2639153616048555,
+        "volatility": 0.17256425788470947,
+        "reserve": 0
+      },
+      "checks": "PASS: independent mean/stdev; covariance identity; reserve infeasibility"
+    }
+  }
+}

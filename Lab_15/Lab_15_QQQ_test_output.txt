@@ -1,0 +1,23 @@
+AI-use disclosure: Prepared with OpenAI Codex assistance; verify results.
+Educational purposes only. Not financial or investment advice.
+QQQ-only test. Target 7.49%; at least 3% in BIL. QQQ is not reserve-eligible.
+Annualized historical estimates, not forecasts.
+
+All months: 59 monthly returns
+  Annual return estimate: 16.04%
+  Annual volatility estimate: 20.84%
+  Return threshold: pass
+  Reserve weight: 0.00% -> FAIL (minimum 3.00%)
+  no mix meets the objective: reserve rule makes QQQ-only infeasible.
+  PASS: independent calculations and expected infeasibility.
+
+Last 36 months: 36 monthly returns
+  Annual return estimate: 26.39%
+  Annual volatility estimate: 17.26%
+  Return threshold: pass
+  Reserve weight: 0.00% -> FAIL (minimum 3.00%)
+  no mix meets the objective: reserve rule makes QQQ-only infeasible.
+  PASS: independent calculations and expected infeasibility.
+
+A one-fund test does not replace the required 3-6-fund universe.
+The six-fund prices and mandate have not been changed.

@@ -1,0 +1,18 @@
+AI-use disclosure: Prepared with OpenAI Codex assistance; verify results.
+Educational purposes only. Not financial or investment advice.
+test_app_widgets_and_infeasible (__main__.EngineTests.test_app_widgets_and_infeasible) ... 2026-10-22 13:48:54.251 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_bad_csv_refused (__main__.EngineTests.test_bad_csv_refused) ... ok
+test_estimator_known_sample (__main__.EngineTests.test_estimator_known_sample) ... ok
+test_infeasible_and_reserve_boundaries (__main__.EngineTests.test_infeasible_and_reserve_boundaries) ... ok
+test_last36_is_36_returns_not_prices (__main__.EngineTests.test_last36_is_36_returns_not_prices) ... ok
+test_meridian_minimum_and_one_point (__main__.EngineTests.test_meridian_minimum_and_one_point) ... ok
+test_old_output_identical (__main__.EngineTests.test_old_output_identical) ... ok
+test_real_csv_and_uploaded_window (__main__.EngineTests.test_real_csv_and_uploaded_window) ... 2026-10-22 13:48:57.345 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_small_grid_global_minimum_independent (__main__.EngineTests.test_small_grid_global_minimum_independent) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 7.197s
+
+OK
