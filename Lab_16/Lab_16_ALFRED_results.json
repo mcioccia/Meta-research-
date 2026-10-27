@@ -1,0 +1,38 @@
+{
+  "ai_disclosure": "AI-use disclosure: Prepared with OpenAI Codex assistance; verify results.",
+  "educational_notice": "Educational purposes only. Not financial or investment advice.",
+  "series": "CPIAUCSL",
+  "signal_scope": "January-March 2026 measured months, held fixed across vintages",
+  "snapshot_is_not_first_publication_date": true,
+  "signals": {
+    "2026-03-31": [
+      "2026-02",
+      0.26700307420970404,
+      ""
+    ],
+    "2026-04-15": [
+      "2026-03",
+      0.8651438343614481,
+      ""
+    ],
+    "2026-10-27": [
+      "2026-03",
+      0.8651438343614481,
+      ""
+    ]
+  },
+  "same_month_revisions_october_minus_march": {
+    "2026-01": 0.0,
+    "2026-02": 0.0
+  },
+  "published_after_decision_in_saved_window": [
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08",
+    "2026-09"
+  ],
+  "validation": "PASS: vintage-specific headers; date order; numeric validity; independent signal calculations."
+}

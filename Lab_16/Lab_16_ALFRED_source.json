@@ -1,0 +1,94 @@
+{
+  "ai_disclosure": "AI-use disclosure: Prepared with OpenAI Codex assistance; verify results.",
+  "educational_notice": "Educational purposes only. Not financial or investment advice.",
+  "series": "CPIAUCSL",
+  "units": "Index 1982-1984=100",
+  "frequency": "Monthly",
+  "seasonal_adjustment": "Seasonally adjusted",
+  "series_source": "https://alfred.stlouisfed.org/series?seid=CPIAUCSL",
+  "snapshots": [
+    {
+      "as_of_date": "2026-03-31",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&cosd=2026-01-01&coed=2026-09-01&vintage_date=2026-03-31",
+      "downloaded_at": "2026-10-27T14:19:59.177690-04:00",
+      "provider_csv_sha256": "57d71983718e3a4471011287f63b1a36971f13ab9cb037386a2beb8eb5c9f178",
+      "provider_csv": "observation_date,CPIAUCSL_20260331\n2026-01-01,326.588\n2026-02-01,327.460\n",
+      "observations": [
+        {
+          "month_measured": "2026-01",
+          "index": 326.588
+        },
+        {
+          "month_measured": "2026-02",
+          "index": 327.46
+        }
+      ]
+    },
+    {
+      "as_of_date": "2026-04-15",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&cosd=2026-01-01&coed=2026-09-01&vintage_date=2026-04-15",
+      "downloaded_at": "2026-10-27T14:19:59.649215-04:00",
+      "provider_csv_sha256": "076c7369f9b7c88bff09a3c7f05fb90ea991af1fc16fd8c0d6a86e1c4112e86a",
+      "provider_csv": "observation_date,CPIAUCSL_20260415\n2026-01-01,326.588\n2026-02-01,327.460\n2026-03-01,330.293\n",
+      "observations": [
+        {
+          "month_measured": "2026-01",
+          "index": 326.588
+        },
+        {
+          "month_measured": "2026-02",
+          "index": 327.46
+        },
+        {
+          "month_measured": "2026-03",
+          "index": 330.293
+        }
+      ]
+    },
+    {
+      "as_of_date": "2026-10-27",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&cosd=2026-01-01&coed=2026-09-01&vintage_date=2026-10-27",
+      "downloaded_at": "2026-10-27T14:20:00.341397-04:00",
+      "provider_csv_sha256": "6e5eae98a06f5843fe4bbc7f6f9763f8b000dc80cfc4bcb4a95546cb7038bc78",
+      "provider_csv": "observation_date,CPIAUCSL_20261027\n2026-01-01,326.588\n2026-02-01,327.460\n2026-03-01,330.293\n2026-04-01,332.407\n2026-05-01,333.979\n2026-06-01,332.568\n2026-07-01,332.813\n2026-08-01,334.131\n2026-09-01,336.298\n",
+      "observations": [
+        {
+          "month_measured": "2026-01",
+          "index": 326.588
+        },
+        {
+          "month_measured": "2026-02",
+          "index": 327.46
+        },
+        {
+          "month_measured": "2026-03",
+          "index": 330.293
+        },
+        {
+          "month_measured": "2026-04",
+          "index": 332.407
+        },
+        {
+          "month_measured": "2026-05",
+          "index": 333.979
+        },
+        {
+          "month_measured": "2026-06",
+          "index": 332.568
+        },
+        {
+          "month_measured": "2026-07",
+          "index": 332.813
+        },
+        {
+          "month_measured": "2026-08",
+          "index": 334.131
+        },
+        {
+          "month_measured": "2026-09",
+          "index": 336.298
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+AI-use disclosure: Prepared with OpenAI Codex assistance; verify results.
+Educational purposes only. Not financial or investment advice.
+ALFRED CPIAUCSL: real BLS data, monthly, seasonally adjusted.
+Fixed measured-month scope for signals: January-March 2026.
+Vintage date means known as of that day, not first publication day.
+
+2026-03-31: +0.27% (February 2026)
+2026-04-15: +0.87% (March 2026)
+2026-10-27: +0.87% (March 2026)
+
+Index observations (missing means unavailable, not zero):
+Month       March 31       April 15       October 27
+2026-01           326.588        326.588        326.588
+2026-02           327.460        327.460        327.460
+2026-03       unavailable        330.293        330.293
+2026-04       unavailable    unavailable        332.407
+2026-05       unavailable    unavailable        333.979
+2026-06       unavailable    unavailable        332.568
+2026-07       unavailable    unavailable        332.813
+2026-08       unavailable    unavailable        334.131
+2026-09       unavailable    unavailable        336.298
+
+PASS: vintage-specific headers; date order; numeric validity; independent signal calculations.
+First publication dates/full revision histories are not supplied by these snapshots.
+Do not label the selected vintage dates as actual publication dates.
+Original fictional asof.py and six-fund portfolio inputs are unchanged.
