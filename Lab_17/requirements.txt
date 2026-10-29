@@ -1,0 +1,4 @@
+# AI-use disclosure: Prepared with OpenAI Codex assistance.
+# Educational purposes only. Not financial or investment advice.
+streamlit==1.66.0
+pandas==3.0.6

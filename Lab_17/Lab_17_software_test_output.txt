@@ -1,0 +1,12 @@
+Built with AI help. Educational purposes only. Not financial or investment advice.
+test_app_controls_and_unknown_id_isolation (test_asof_app.Tests.test_app_controls_and_unknown_id_isolation) ... ok
+test_download_cache_and_request_urls (test_asof_app.Tests.test_download_cache_and_request_urls) ... ok
+test_finance_changes_and_overlay (test_asof_app.Tests.test_finance_changes_and_overlay) ... ok
+test_missing_day_and_vintage_identity (test_asof_app.Tests.test_missing_day_and_vintage_identity) ... ok
+test_returned_vintage_guard (test_asof_app.Tests.test_returned_vintage_guard) ... ok
+test_revisions_and_counts (test_asof_app.Tests.test_revisions_and_counts) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 3.996s
+
+OK

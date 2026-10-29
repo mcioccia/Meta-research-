@@ -1,0 +1,17 @@
+2026-10-29 14:05:45.911 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2026-10-29 14:05:45.916 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+Built with AI help. Educational purposes only. Not financial or investment advice.
+test_finance_changes_and_overlay (__main__.Tests.test_finance_changes_and_overlay) ... ok
+test_revisions_and_counts (__main__.Tests.test_revisions_and_counts) ... ok
+test_download_cache_and_request_urls (__main__.Tests.test_download_cache_and_request_urls) ... 2026-10-29 14:05:45.928 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2026-10-29 14:05:45.928 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2026-10-29 14:05:45.956 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2026-10-29 14:05:45.958 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ok
+test_missing_day_and_vintage_identity (__main__.Tests.test_missing_day_and_vintage_identity) ... ok
+test_returned_vintage_guard (__main__.Tests.test_returned_vintage_guard) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.035s
+
+OK
