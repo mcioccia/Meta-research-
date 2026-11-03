@@ -1,0 +1,8 @@
+AI-use disclosure: Prepared with OpenAI Codex assistance; verify results. Educational purposes only. Not financial or investment advice.
+Live SEC-backed app verification
+PASS: COST live chart, table, three passing checks, saved memo and matching review record.
+PASS: adding 40.0% to COST memo produces the visible unsupported-number warning.
+PASS: restored original memo; numeric audit passes.
+PASS: JPM live table, missing owner earnings, unknown owner-earnings checks and evidence-bound memo.
+PASS: returned to COST base display.
+PASS: requester email appears only in ignored local settings, not authored reports or SEC source files.

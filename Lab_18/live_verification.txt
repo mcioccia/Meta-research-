@@ -1,0 +1,4 @@
+AI-use disclosure: Prepared with OpenAI Codex assistance; verify results. Educational purposes only. Not financial or investment advice.
+PASS: COST five-year course table and all three checks.
+PASS: JPM capital spending and owner earnings missing; both checks not known.
+PASS: invented 40.0% flagged.

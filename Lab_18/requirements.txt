@@ -1,0 +1,6 @@
+# AI-use disclosure: Prepared with OpenAI Codex assistance.
+# Educational purposes only. Not financial or investment advice.
+# App dependencies; the SEC script itself uses the standard library only.
+streamlit==1.66.0
+pandas==3.0.6
+

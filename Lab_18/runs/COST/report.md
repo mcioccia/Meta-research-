@@ -1,0 +1,82 @@
+# COST — SEC business-quality report
+
+AI-use disclosure: Prepared with OpenAI Codex assistance; verify results. Educational purposes only. Not financial or investment advice.
+
+COSTCO WHOLESALE CORP /NEW
+Currency and scale: USD millions. 10-K only.
+10-K only; latest filing per period; priority tags within latest filing; full-year USD flows; ROE uses year-end equity; owner earnings = OCF minus capex.
+
+| FY end | Revenue | Net income | Operating cash flow | Capital spending | Equity | ROE % | Owner earnings |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 2022-08-28 | 226,954 | 5,844 | 7,392 | 3,891 | 20,642 | 28.3% | 3,501 |
+| 2023-09-03 | 242,290 | 6,292 | 11,068 | 4,323 | 25,058 | 25.1% | 6,745 |
+| 2024-09-01 | 254,453 | 7,367 | 11,339 | 4,710 | 23,622 | 31.2% | 6,629 |
+| 2025-08-31 | 275,235 | 8,099 | 13,335 | 5,498 | 29,164 | 27.8% | 7,837 |
+| 2026-08-30 | 303,154 | 9,226 | 15,817 | 6,435 | 35,803 | 25.8% | 9,382 |
+
+## Code-computed checks
+
+- ROE at least 15.0% every year: **pass**
+- Owner earnings positive every year: **pass**
+- Owner earnings grew from first year to last: **pass**
+
+## XBRL evidence by fiscal year
+
+### 2022-08-28
+Annual flow period: 2021-08-30 through 2022-08-28.
+- revenue: 226,954; us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax; filed 2024-10-09; accession 0000909832-24-000049; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/0000909832-24-000049-index.html).
+- net_income: 5,844; us-gaap:NetIncomeLoss; filed 2024-10-09; accession 0000909832-24-000049; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/0000909832-24-000049-index.html).
+- operating_cash_flow: 7,392; us-gaap:NetCashProvidedByUsedInOperatingActivities; filed 2024-10-09; accession 0000909832-24-000049; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/0000909832-24-000049-index.html).
+- capital_spending: 3,891; us-gaap:PaymentsToAcquirePropertyPlantAndEquipment; filed 2024-10-09; accession 0000909832-24-000049; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/0000909832-24-000049-index.html).
+- equity: 20,642; us-gaap:StockholdersEquity; filed 2023-10-11; accession 0000909832-23-000042; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983223000042/0000909832-23-000042-index.html).
+- liabilities: 43,519; us-gaap:Liabilities; filed 2023-10-11; accession 0000909832-23-000042; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983223000042/0000909832-23-000042-index.html).
+- ROE: 28.3%; derived from NetIncomeLoss / StockholdersEquity.
+- Owner earnings: 3,501; derived from operating-cash-flow tag minus selected capital-spending tag.
+- Liabilities / equity: 2.11; derived from Liabilities / StockholdersEquity.
+### 2023-09-03
+Annual flow period: 2022-08-29 through 2023-09-03.
+- revenue: 242,290; us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax; filed 2025-10-08; accession 0000909832-25-000101; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/0000909832-25-000101-index.html).
+- net_income: 6,292; us-gaap:NetIncomeLoss; filed 2025-10-08; accession 0000909832-25-000101; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/0000909832-25-000101-index.html).
+- operating_cash_flow: 11,068; us-gaap:NetCashProvidedByUsedInOperatingActivities; filed 2025-10-08; accession 0000909832-25-000101; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/0000909832-25-000101-index.html).
+- capital_spending: 4,323; us-gaap:PaymentsToAcquirePropertyPlantAndEquipment; filed 2025-10-08; accession 0000909832-25-000101; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/0000909832-25-000101-index.html).
+- equity: 25,058; us-gaap:StockholdersEquity; filed 2026-10-07; accession 0000909832-26-000093; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html).
+- liabilities: 43,936; us-gaap:Liabilities; filed 2024-10-09; accession 0000909832-24-000049; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/0000909832-24-000049-index.html).
+- ROE: 25.1%; derived from NetIncomeLoss / StockholdersEquity.
+- Owner earnings: 6,745; derived from operating-cash-flow tag minus selected capital-spending tag.
+- Liabilities / equity: 1.75; derived from Liabilities / StockholdersEquity.
+### 2024-09-01
+Annual flow period: 2023-09-04 through 2024-09-01.
+- revenue: 254,453; us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax; filed 2026-10-07; accession 0000909832-26-000093; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html).
+- net_income: 7,367; us-gaap:NetIncomeLoss; filed 2026-10-07; accession 0000909832-26-000093; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html).
+- operating_cash_flow: 11,339; us-gaap:NetCashProvidedByUsedInOperatingActivities; filed 2026-10-07; accession 0000909832-26-000093; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html).
+- capital_spending: 4,710; us-gaap:PaymentsToAcquirePropertyPlantAndEquipment; filed 2026-10-07; accession 0000909832-26-000093; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html).
+- equity: 23,622; us-gaap:StockholdersEquity; filed 2026-10-07; accession 0000909832-26-000093; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html).
+- liabilities: 46,209; us-gaap:Liabilities; filed 2025-10-08; accession 0000909832-25-000101; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/0000909832-25-000101-index.html).
+- ROE: 31.2%; derived from NetIncomeLoss / StockholdersEquity.
+- Owner earnings: 6,629; derived from operating-cash-flow tag minus selected capital-spending tag.
+- Liabilities / equity: 1.96; derived from Liabilities / StockholdersEquity.
+### 2025-08-31
+Annual flow period: 2024-09-02 through 2025-08-31.
+- revenue: 275,235; us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax; filed 2026-10-07; accession 0000909832-26-000093; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html).
+- net_income: 8,099; us-gaap:NetIncomeLoss; filed 2026-10-07; accession 0000909832-26-000093; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html).
+- operating_cash_flow: 13,335; us-gaap:NetCashProvidedByUsedInOperatingActivities; filed 2026-10-07; accession 0000909832-26-000093; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html).
+- capital_spending: 5,498; us-gaap:PaymentsToAcquirePropertyPlantAndEquipment; filed 2026-10-07; accession 0000909832-26-000093; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html).
+- equity: 29,164; us-gaap:StockholdersEquity; filed 2026-10-07; accession 0000909832-26-000093; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html).
+- liabilities: 47,935; us-gaap:Liabilities; filed 2026-10-07; accession 0000909832-26-000093; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html).
+- ROE: 27.8%; derived from NetIncomeLoss / StockholdersEquity.
+- Owner earnings: 7,837; derived from operating-cash-flow tag minus selected capital-spending tag.
+- Liabilities / equity: 1.64; derived from Liabilities / StockholdersEquity.
+### 2026-08-30
+Annual flow period: 2025-09-01 through 2026-08-30.
+- revenue: 303,154; us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax; filed 2026-10-07; accession 0000909832-26-000093; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html).
+- net_income: 9,226; us-gaap:NetIncomeLoss; filed 2026-10-07; accession 0000909832-26-000093; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html).
+- operating_cash_flow: 15,817; us-gaap:NetCashProvidedByUsedInOperatingActivities; filed 2026-10-07; accession 0000909832-26-000093; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html).
+- capital_spending: 6,435; us-gaap:PaymentsToAcquirePropertyPlantAndEquipment; filed 2026-10-07; accession 0000909832-26-000093; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html).
+- equity: 35,803; us-gaap:StockholdersEquity; filed 2026-10-07; accession 0000909832-26-000093; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html).
+- liabilities: 53,242; us-gaap:Liabilities; filed 2026-10-07; accession 0000909832-26-000093; [10-K](https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/0000909832-26-000093-index.html).
+- ROE: 25.8%; derived from NetIncomeLoss / StockholdersEquity.
+- Owner earnings: 9,382; derived from operating-cash-flow tag minus selected capital-spending tag.
+- Liabilities / equity: 1.49; derived from Liabilities / StockholdersEquity.
+
+The owner-earnings measure is the lab's simplified cash-flow proxy, not a maintenance-capital-spending estimate.
+Checks with missing required inputs are not known. Zero or negative equity makes ROE and liabilities/equity not known.

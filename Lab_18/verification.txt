@@ -1,0 +1,22 @@
+AI-use disclosure: Prepared with OpenAI Codex assistance; verify results. Educational purposes only. Not financial or investment advice.
+Synthetic verification from the initial build. Subsequent live checks are recorded in live_verification.txt and app_verification.txt.
+
+test_report_memo_and_invented_number (test_app.AppTests.test_report_memo_and_invented_number) ... ok
+test_boundary_checks_and_incomplete_history (test_sec_facts.FactsTests.test_boundary_checks_and_incomplete_history) ... ok
+test_latest_revision_annual_and_10k_only (test_sec_facts.FactsTests.test_latest_revision_annual_and_10k_only) ... ok
+test_missing_capex_is_unknown (test_sec_facts.FactsTests.test_missing_capex_is_unknown) ... ok
+test_nonpositive_equity_and_missing_net_income (test_sec_facts.FactsTests.test_nonpositive_equity_and_missing_net_income) ... ok
+test_numeric_probe (test_sec_facts.FactsTests.test_numeric_probe) ... ok
+test_periods_and_calculations (test_sec_facts.FactsTests.test_periods_and_calculations) ... ok
+test_retail_years_and_conflicts (test_sec_facts.FactsTests.test_retail_years_and_conflicts) ... ok
+test_tag_fallback_and_latest_filing (test_sec_facts.FactsTests.test_tag_fallback_and_latest_filing) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 3.606s
+
+OK
+
+PASS: all authored Python files parse successfully.
+PASS: installed project skill and submission copy match.
+PASS: installed SKILL.md passes the official skill-creator validator.
+PASS: local app server responds on port 8504. Live company data was subsequently verified; see app_verification.txt.

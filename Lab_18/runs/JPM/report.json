@@ -1,0 +1,386 @@
+{
+  "ai_disclosure": "AI-use disclosure: Prepared with OpenAI Codex assistance; verify results. Educational purposes only. Not financial or investment advice.",
+  "ticker": "JPM",
+  "company": "JPMORGAN CHASE & CO",
+  "cik": 19617,
+  "currency_scale": "USD millions",
+  "rows": [
+    {
+      "start": "2021-01-01",
+      "fy_end": "2021-12-31",
+      "fields": {
+        "revenue": {
+          "value": 121649000000,
+          "tag": "Revenues",
+          "form": "10-K",
+          "unit": "USD",
+          "start": "2021-01-01",
+          "end": "2021-12-31",
+          "filed": "2024-02-16",
+          "accession": "0000019617-24-000225",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000225/0000019617-24-000225-index.html"
+        },
+        "net_income": {
+          "value": 48334000000,
+          "tag": "NetIncomeLoss",
+          "form": "10-K",
+          "unit": "USD",
+          "start": "2021-01-01",
+          "end": "2021-12-31",
+          "filed": "2024-02-16",
+          "accession": "0000019617-24-000225",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000225/0000019617-24-000225-index.html"
+        },
+        "operating_cash_flow": {
+          "value": 78084000000,
+          "tag": "NetCashProvidedByUsedInOperatingActivities",
+          "form": "10-K",
+          "unit": "USD",
+          "start": "2021-01-01",
+          "end": "2021-12-31",
+          "filed": "2024-02-16",
+          "accession": "0000019617-24-000225",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000225/0000019617-24-000225-index.html"
+        },
+        "capital_spending": {
+          "value": null,
+          "tag": null,
+          "reason": "No eligible USD fact from a 10-K for this fiscal period.",
+          "searched_tags": [
+            "PaymentsToAcquirePropertyPlantAndEquipment",
+            "PaymentsToAcquireProductiveAssets"
+          ]
+        },
+        "equity": {
+          "value": 294127000000,
+          "tag": "StockholdersEquity",
+          "form": "10-K",
+          "unit": "USD",
+          "start": null,
+          "end": "2021-12-31",
+          "filed": "2024-02-16",
+          "accession": "0000019617-24-000225",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000225/0000019617-24-000225-index.html"
+        },
+        "liabilities": {
+          "value": 3449440000000,
+          "tag": "Liabilities",
+          "form": "10-K",
+          "unit": "USD",
+          "start": null,
+          "end": "2021-12-31",
+          "filed": "2023-02-21",
+          "accession": "0000019617-23-000231",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000001961723000231/0000019617-23-000231-index.html"
+        }
+      },
+      "roe_percent": 16.433037429409744,
+      "owner_earnings": null,
+      "liabilities_to_equity": 11.727723058406742
+    },
+    {
+      "start": "2022-01-01",
+      "fy_end": "2022-12-31",
+      "fields": {
+        "revenue": {
+          "value": 128695000000,
+          "tag": "Revenues",
+          "form": "10-K",
+          "unit": "USD",
+          "start": "2022-01-01",
+          "end": "2022-12-31",
+          "filed": "2025-02-14",
+          "accession": "0000019617-25-000270",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000270/0000019617-25-000270-index.html"
+        },
+        "net_income": {
+          "value": 37676000000,
+          "tag": "NetIncomeLoss",
+          "form": "10-K",
+          "unit": "USD",
+          "start": "2022-01-01",
+          "end": "2022-12-31",
+          "filed": "2025-02-14",
+          "accession": "0000019617-25-000270",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000270/0000019617-25-000270-index.html"
+        },
+        "operating_cash_flow": {
+          "value": 107119000000,
+          "tag": "NetCashProvidedByUsedInOperatingActivities",
+          "form": "10-K",
+          "unit": "USD",
+          "start": "2022-01-01",
+          "end": "2022-12-31",
+          "filed": "2025-02-14",
+          "accession": "0000019617-25-000270",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000270/0000019617-25-000270-index.html"
+        },
+        "capital_spending": {
+          "value": null,
+          "tag": null,
+          "reason": "No eligible USD fact from a 10-K for this fiscal period.",
+          "searched_tags": [
+            "PaymentsToAcquirePropertyPlantAndEquipment",
+            "PaymentsToAcquireProductiveAssets"
+          ]
+        },
+        "equity": {
+          "value": 292332000000,
+          "tag": "StockholdersEquity",
+          "form": "10-K",
+          "unit": "USD",
+          "start": null,
+          "end": "2022-12-31",
+          "filed": "2025-02-14",
+          "accession": "0000019617-25-000270",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000270/0000019617-25-000270-index.html"
+        },
+        "liabilities": {
+          "value": 3373411000000,
+          "tag": "Liabilities",
+          "form": "10-K",
+          "unit": "USD",
+          "start": null,
+          "end": "2022-12-31",
+          "filed": "2024-02-16",
+          "accession": "0000019617-24-000225",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000225/0000019617-24-000225-index.html"
+        }
+      },
+      "roe_percent": 12.888086148625536,
+      "owner_earnings": null,
+      "liabilities_to_equity": 11.539656965368144
+    },
+    {
+      "start": "2023-01-01",
+      "fy_end": "2023-12-31",
+      "fields": {
+        "revenue": {
+          "value": 158104000000,
+          "tag": "Revenues",
+          "form": "10-K",
+          "unit": "USD",
+          "start": "2023-01-01",
+          "end": "2023-12-31",
+          "filed": "2026-02-13",
+          "accession": "0001628280-26-008131",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/0001628280-26-008131-index.html"
+        },
+        "net_income": {
+          "value": 49552000000,
+          "tag": "NetIncomeLoss",
+          "form": "10-K",
+          "unit": "USD",
+          "start": "2023-01-01",
+          "end": "2023-12-31",
+          "filed": "2026-02-13",
+          "accession": "0001628280-26-008131",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/0001628280-26-008131-index.html"
+        },
+        "operating_cash_flow": {
+          "value": 12974000000,
+          "tag": "NetCashProvidedByUsedInOperatingActivities",
+          "form": "10-K",
+          "unit": "USD",
+          "start": "2023-01-01",
+          "end": "2023-12-31",
+          "filed": "2026-02-13",
+          "accession": "0001628280-26-008131",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/0001628280-26-008131-index.html"
+        },
+        "capital_spending": {
+          "value": null,
+          "tag": null,
+          "reason": "No eligible USD fact from a 10-K for this fiscal period.",
+          "searched_tags": [
+            "PaymentsToAcquirePropertyPlantAndEquipment",
+            "PaymentsToAcquireProductiveAssets"
+          ]
+        },
+        "equity": {
+          "value": 327878000000,
+          "tag": "StockholdersEquity",
+          "form": "10-K",
+          "unit": "USD",
+          "start": null,
+          "end": "2023-12-31",
+          "filed": "2026-02-13",
+          "accession": "0001628280-26-008131",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/0001628280-26-008131-index.html"
+        },
+        "liabilities": {
+          "value": 3547515000000,
+          "tag": "Liabilities",
+          "form": "10-K",
+          "unit": "USD",
+          "start": null,
+          "end": "2023-12-31",
+          "filed": "2025-02-14",
+          "accession": "0000019617-25-000270",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000001961725000270/0000019617-25-000270-index.html"
+        }
+      },
+      "roe_percent": 15.112938349020064,
+      "owner_earnings": null,
+      "liabilities_to_equity": 10.819618882633174
+    },
+    {
+      "start": "2024-01-01",
+      "fy_end": "2024-12-31",
+      "fields": {
+        "revenue": {
+          "value": 177556000000,
+          "tag": "Revenues",
+          "form": "10-K",
+          "unit": "USD",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-13",
+          "accession": "0001628280-26-008131",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/0001628280-26-008131-index.html"
+        },
+        "net_income": {
+          "value": 58471000000,
+          "tag": "NetIncomeLoss",
+          "form": "10-K",
+          "unit": "USD",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-13",
+          "accession": "0001628280-26-008131",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/0001628280-26-008131-index.html"
+        },
+        "operating_cash_flow": {
+          "value": -42012000000,
+          "tag": "NetCashProvidedByUsedInOperatingActivities",
+          "form": "10-K",
+          "unit": "USD",
+          "start": "2024-01-01",
+          "end": "2024-12-31",
+          "filed": "2026-02-13",
+          "accession": "0001628280-26-008131",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/0001628280-26-008131-index.html"
+        },
+        "capital_spending": {
+          "value": null,
+          "tag": null,
+          "reason": "No eligible USD fact from a 10-K for this fiscal period.",
+          "searched_tags": [
+            "PaymentsToAcquirePropertyPlantAndEquipment",
+            "PaymentsToAcquireProductiveAssets"
+          ]
+        },
+        "equity": {
+          "value": 344758000000,
+          "tag": "StockholdersEquity",
+          "form": "10-K",
+          "unit": "USD",
+          "start": null,
+          "end": "2024-12-31",
+          "filed": "2026-02-13",
+          "accession": "0001628280-26-008131",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/0001628280-26-008131-index.html"
+        },
+        "liabilities": {
+          "value": 3658056000000,
+          "tag": "Liabilities",
+          "form": "10-K",
+          "unit": "USD",
+          "start": null,
+          "end": "2024-12-31",
+          "filed": "2026-02-13",
+          "accession": "0001628280-26-008131",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/0001628280-26-008131-index.html"
+        }
+      },
+      "roe_percent": 16.96001253052866,
+      "owner_earnings": null,
+      "liabilities_to_equity": 10.610503599626405
+    },
+    {
+      "start": "2025-01-01",
+      "fy_end": "2025-12-31",
+      "fields": {
+        "revenue": {
+          "value": 182447000000,
+          "tag": "Revenues",
+          "form": "10-K",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-13",
+          "accession": "0001628280-26-008131",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/0001628280-26-008131-index.html"
+        },
+        "net_income": {
+          "value": 57048000000,
+          "tag": "NetIncomeLoss",
+          "form": "10-K",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-13",
+          "accession": "0001628280-26-008131",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/0001628280-26-008131-index.html"
+        },
+        "operating_cash_flow": {
+          "value": -147782000000,
+          "tag": "NetCashProvidedByUsedInOperatingActivities",
+          "form": "10-K",
+          "unit": "USD",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "filed": "2026-02-13",
+          "accession": "0001628280-26-008131",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/0001628280-26-008131-index.html"
+        },
+        "capital_spending": {
+          "value": null,
+          "tag": null,
+          "reason": "No eligible USD fact from a 10-K for this fiscal period.",
+          "searched_tags": [
+            "PaymentsToAcquirePropertyPlantAndEquipment",
+            "PaymentsToAcquireProductiveAssets"
+          ]
+        },
+        "equity": {
+          "value": 362438000000,
+          "tag": "StockholdersEquity",
+          "form": "10-K",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-12-31",
+          "filed": "2026-02-13",
+          "accession": "0001628280-26-008131",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/0001628280-26-008131-index.html"
+        },
+        "liabilities": {
+          "value": 4062462000000,
+          "tag": "Liabilities",
+          "form": "10-K",
+          "unit": "USD",
+          "start": null,
+          "end": "2025-12-31",
+          "filed": "2026-02-13",
+          "accession": "0001628280-26-008131",
+          "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/0001628280-26-008131-index.html"
+        }
+      },
+      "roe_percent": 15.74007140531622,
+      "owner_earnings": null,
+      "liabilities_to_equity": 11.208708799849905
+    }
+  ],
+  "checks": {
+    "ROE at least 15.0% every year": "fail",
+    "Owner earnings positive every year": "not known",
+    "Owner earnings grew from first year to last": "not known"
+  },
+  "source": {
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000019617.json",
+    "downloaded_at": "2026-11-03T19:00:49.105534+00:00",
+    "sha256": "d57e97447ef9d428ce8cae91a387526cd5594631b3eab1ac63520ad62f43726b"
+  },
+  "method": "10-K only; latest filing per period; priority tags within latest filing; full-year USD flows; ROE uses year-end equity; owner earnings = OCF minus capex.",
+  "report_id": "fb7f3b0aae7db52907175c9111da5150e3ab4328d0dde056cc89e4e7651dbef7"
+}
